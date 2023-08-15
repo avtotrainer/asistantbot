@@ -19,7 +19,7 @@ def help(message):
 
 @bot.message_handler(commands=['cv'])
 def show_html_page(message):
-    github_html_url = 'https://github.com/avtotrainer/cv/blob/main/index.html'  # Замените на URL вашей HTML-страницы
+    github_html_url = 'https://github.com/avtotrainer/asistantbot/blob/main/simple.html'  # Замените на URL вашей HTML-страницы
     response = requests.get(github_html_url)
     
     if response.status_code == 200:
